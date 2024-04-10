@@ -38,5 +38,11 @@ public class Main {
         myDLL.printList();
         System.out.println("Getting value at index 5");
         System.out.println(myDLL.get(5).value);
+
+        System.out.println("SET");
+        myDLL.printList();
+        System.out.println("setting index 4 to 4");
+        myDLL.set(4, 4);
+        myDLL.printList();
     }
 }
