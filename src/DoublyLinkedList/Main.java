@@ -22,5 +22,13 @@ public class Main {
         System.out.println("prepending 42....");
         myDLL.prepend(42);
         myDLL.printList();
+
+        System.out.println("removeFirst");
+        myDLL.append(46);
+        myDLL.append(2);
+        myDLL.printList();
+        System.out.println("removing first....");
+        myDLL.removeFirst();
+        myDLL.printList();
     }
 }
