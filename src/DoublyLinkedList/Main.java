@@ -30,5 +30,13 @@ public class Main {
         System.out.println("removing first....");
         myDLL.removeFirst();
         myDLL.printList();
+
+        System.out.println("GET");
+        myDLL.append(56);
+        myDLL.append(879);
+        myDLL.append(34);
+        myDLL.printList();
+        System.out.println("Getting value at index 5");
+        System.out.println(myDLL.get(5).value);
     }
 }
