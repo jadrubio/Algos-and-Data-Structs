@@ -50,5 +50,11 @@ public class Main {
         System.out.println("insert 42 at 1");
         myDLL.insert(1, 42);
         myDLL.printList();
+
+        System.out.println("Remove");
+        myDLL.printList();
+        System.out.println("removing index 5");
+        myDLL.remove(5);
+        myDLL.printList();
     }
 }
