@@ -16,5 +16,11 @@ public class Main {
         System.out.println("removing ..." + myDLL.removeLast().value);
         System.out.println("done");
         myDLL.printList();
+
+        System.out.println("Prepend");
+        myDLL.printList();
+        System.out.println("prepending 42....");
+        myDLL.prepend(42);
+        myDLL.printList();
     }
 }
