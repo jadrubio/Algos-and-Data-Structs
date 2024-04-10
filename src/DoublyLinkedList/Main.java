@@ -44,5 +44,11 @@ public class Main {
         System.out.println("setting index 4 to 4");
         myDLL.set(4, 4);
         myDLL.printList();
+
+        System.out.println("Insert");
+        myDLL.printList();
+        System.out.println("insert 42 at 1");
+        myDLL.insert(1, 42);
+        myDLL.printList();
     }
 }
