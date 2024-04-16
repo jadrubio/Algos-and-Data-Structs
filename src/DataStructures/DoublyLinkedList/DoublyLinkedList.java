@@ -1,4 +1,4 @@
-package DoublyLinkedList;
+package DataStructures.DoublyLinkedList;
 public class DoublyLinkedList {
     private Node head;
     private Node tail;
